@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Percentage Calculator</title>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="icon" type="image/x-icon" href="/icon.ico">
+    </head>
+    <body style="color:white; background-color:gray;">
+
+        <center><h1>Percentage Calculator</h1></center>
+
+        <div class="w3-card w3-black w3-center" style="padding:10px;">
+        <form id="f1">
+        <fieldset class="values">
+          What is <input type="text" size="3" autofocus="autofocus"> %
+          <nobr>of <input type="text" size="7">?</nobr>
+
+        </fieldset>
+
+        <fieldset class="results">
+          <input type="submit" value="Calculate">
+          <input type="text" size="6" readonly="readonly"><span class="hide">&nbsp;%</span>
+
+        </fieldset>
+
+      </form>
+
+      <form id="f2">
+        <fieldset class="values">
+          <input type="text" size="5" style="background: rgb(255, 255, 255);"> is what percent
+          <nobr>of <input type="text" size="5" style="background: rgb(255, 255, 255);">?</nobr>
+
+        </fieldset>
+
+        <fieldset class="results">
+          <input type="submit" value="Calculate">
+          <input type="text" size="6" readonly="readonly"><span>&nbsp;%</span>
+
+        </fieldset>
+
+      </form>
+
+      <form id="f3">
+        <fieldset class="values">
+          What is the percentage increase/decrease<br>
+          <nobr>from <input type="text" size="5"></nobr>
+
+          <nobr>to <input type="text" size="5">?</nobr>
+
+        </fieldset>
+
+        <fieldset class="results"><br class="remove">
+          <input type="submit" value="Calculate">
+          <input type="text" size="6" readonly="readonly"><span>&nbsp;%</span>
+
+        </fieldset>
+      </form>
+      </div>
+
+        <script src="/projects/percent-calc/script.js"></script>
+        <footer><sub>- Logan Briesemeister © 2023 <a href="/index.html">home</a></sub></footer>
+    </body>
+</html>
