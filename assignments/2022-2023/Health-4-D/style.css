@@ -1,0 +1,83 @@
+/* zoom */
+
+.ph {
+  background-color: black;
+  transition: transform .2s; /* Animation */
+  width: 500px;
+}
+
+.ph:hover {
+    transform:scale(1.5);
+}
+
+.ph2 {
+  background-color: black;
+  transition: transform .2s; /* Animation */
+  width: 500px;
+}
+
+.ph2:hover {
+    transform:scale(1.5);
+}
+
+.ih {
+  background-color: black;
+  transition: transform .2s; /* Animation */
+  width: 500px;
+}
+
+.ih:hover {
+    transform:scale(1.5);
+}
+
+.ih2 {
+  background-color: black;
+  transition: transform .2s; /* Animation */
+  width: 500px;
+}
+
+.ih2:hover {
+    transform:scale(1.5);
+}
+
+.sh {
+  background-color: black;
+  transition: transform .2s; /* Animation */
+  width: 500px;
+}
+
+.sh:hover {
+    transform:scale(1.5);
+}
+
+.sh2 {
+  background-color: black;
+  transition: transform .2s; /* Animation */
+  width: 500px;
+}
+
+.sh2:hover {
+    transform:scale(1.5);
+}
+
+.eh {
+  background-color: black;
+  transition: transform .2s; /* Animation */
+  width: 500px;
+}
+
+.eh:hover {
+    transform:scale(1.5);
+}
+
+.eh2 {
+  background-color: black;
+  transition: transform .2s; /* Animation */
+  width: 500px;
+}
+
+.eh2:hover {
+    transform:scale(1.5);
+}
+/* end zoom */
+
